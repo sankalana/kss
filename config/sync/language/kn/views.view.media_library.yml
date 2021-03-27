@@ -1,0 +1,70 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      fields:
+        media_bulk_form:
+          action_title: ಕಾರ್ಯ
+      filters:
+        status:
+          group_info:
+            label: ಪ್ರಕಟಿತ
+            group_items:
+              1:
+                title: ಪ್ರಕಟಿತ
+        name:
+          expose:
+            label: ಹೆಸರು
+        langcode:
+          expose:
+            label: ಭಾಷೆ
+      title: ಮಾಧ್ಯಮ
+  page:
+    display_title: ಪುಟ
+    display_options:
+      fields:
+        media_bulk_form:
+          action_title: ಕಾರ್ಯ
+        name:
+          separator: ', '
+        edit_media:
+          text: ಸಂಸ್ಕರಿಸು
+        delete_media:
+          text: 'ಅಳಿಸಿ ಹಾಕು'
+  widget:
+    display_options:
+      filters:
+        name:
+          expose:
+            label: ಹೆಸರು
+      arguments:
+        bundle:
+          exception:
+            title: ಎಲ್ಲಾ
+      header:
+        display_link_table:
+          label: ಪಟ್ಟಿ
+  widget_table:
+    display_options:
+      fields:
+        thumbnail__target_id:
+          label: ತಂಬ್‌ನೈಲ್‌
+        name:
+          label: ಹೆಸರು
+        uid:
+          label: ಲೇಖಕ
+        changed:
+          label: 'ಅಪ್‌ಡೇಟ್‌ ಮಾಡಲಾಗಿದ್ದು'
+      filters:
+        name:
+          expose:
+            label: ಹೆಸರು
+      arguments:
+        bundle:
+          exception:
+            title: ಎಲ್ಲಾ
+      header:
+        display_link_table:
+          label: ಪಟ್ಟಿ

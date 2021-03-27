@@ -1,0 +1,16 @@
+uuid: 17833f59-1585-4703-b81c-645f86a842f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tala
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.tala
+target_entity_type_id: taxonomy_term
+target_bundle: tala
+default_langcode: site_default
+language_alterable: true

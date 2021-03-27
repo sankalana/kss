@@ -1,0 +1,9 @@
+uuid: 89e2a9aa-afcc-4ea5-bdc3-8aadc96ceff4
+langcode: en
+status: true
+dependencies: {  }
+id: ta
+label: Tamil
+direction: ltr
+weight: 2
+locked: false

@@ -1,0 +1,46 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: പുനഃക്രമീകരണം
+      fields:
+        media_bulk_form:
+          action_title: പ്രവര്‍ത്തി
+      filters:
+        status:
+          group_info:
+            label: പ്രസിദ്ധീകരിച്ചവ
+            group_items:
+              1:
+                title: പ്രസിദ്ധീകരിച്ചവ
+        name:
+          expose:
+            label: പേര്
+        langcode:
+          expose:
+            label: ഭാഷ
+  page:
+    display_options:
+      fields:
+        media_bulk_form:
+          action_title: പ്രവര്‍ത്തി
+        edit_media:
+          text: തിരുത്തുക
+        delete_media:
+          text: മായ്ക്കുക
+  widget:
+    display_options:
+      filters:
+        name:
+          expose:
+            label: പേര്
+  widget_table:
+    display_options:
+      fields:
+        name:
+          label: പേര്
+      filters:
+        name:
+          expose:
+            label: പേര്

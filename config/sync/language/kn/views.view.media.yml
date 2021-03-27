@@ -1,0 +1,52 @@
+label: ಮಾಧ್ಯಮ
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ಶೋಧಕ(Filter)
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      fields:
+        media_bulk_form:
+          action_title: ಕಾರ್ಯ
+        thumbnail__target_id:
+          label: ತಂಬ್‌ನೈಲ್‌
+          separator: ', '
+        name:
+          separator: ', '
+        bundle:
+          label: ಶೈಲಿ
+          separator: ', '
+        uid:
+          label: ಲೇಖಕ
+          separator: ', '
+        status:
+          label: ಸ್ಥಿತಿ
+          settings:
+            format_custom_true: ಪ್ರಕಟಿತ
+          separator: ', '
+        changed:
+          label: 'ಅಪ್‌ಡೇಟ್‌ ಮಾಡಲಾಗಿದ್ದು'
+          separator: ', '
+        operations:
+          label: ಕ್ರಿಯೆ
+      filters:
+        bundle:
+          expose:
+            label: ಶೈಲಿ
+        status:
+          expose:
+            label: ನಿಜ
+          group_info:
+            group_items:
+              1:
+                title: ಪ್ರಕಟಿತ
+        langcode:
+          expose:
+            label: ಭಾಷೆ
+      title: ಮಾಧ್ಯಮ
+  media_page_list:
+    display_title: ಮಾಧ್ಯಮ
+    display_options:
+      menu:
+        title: ಮಾಧ್ಯಮ

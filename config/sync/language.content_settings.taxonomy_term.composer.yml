@@ -1,0 +1,16 @@
+uuid: 7e7eb74b-730a-4fa1-a6e4-f863ce4a65db
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.composer
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.composer
+target_entity_type_id: taxonomy_term
+target_bundle: composer
+default_langcode: site_default
+language_alterable: true

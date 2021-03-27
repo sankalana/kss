@@ -1,0 +1,19 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ഫിൽറ്റർ
+          reset_button_label: പുനഃക്രമീകരണം
+      fields:
+        title:
+          label: തലക്കെട്ട്
+        operations:
+          label: പ്രവര്‍ത്തനങ്ങള്‍
+      filters:
+        title:
+          expose:
+            label: തലക്കെട്ട്
+        langcode:
+          expose:
+            label: ഭാഷ

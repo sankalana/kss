@@ -1,0 +1,29 @@
+uuid: 222c99b0-4908-4897-8981-0f13ceb4d82a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.composition_language
+    - node.type.composition
+    - taxonomy.vocabulary.language
+id: node.composition.composition_language
+field_name: composition_language
+entity_type: node
+bundle: composition
+label: 'Composition Language'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      language: language
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

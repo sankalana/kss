@@ -1,0 +1,11 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ಅನ್ವಯಿಸು
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      fields:
+        changed:
+          separator: ', '
+      use_more_text: ಹೆಚ್ಚಿನ

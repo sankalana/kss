@@ -1,0 +1,83 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: மீளமை
+          exposed_sorts_label: வரிசையாக
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- அனைத்தும் -'
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        media_bulk_form:
+          action_title: செயல்
+      filters:
+        status:
+          group_info:
+            label: வெளியிடப்பட்டது
+            group_items:
+              1:
+                title: வெளியிடப்பட்டது
+              2:
+                title: வெளியிடப்படாத
+        name:
+          expose:
+            label: பெயர்
+        langcode:
+          expose:
+            label: மொழி
+      title: ஊடகம்
+  page:
+    display_title: பக்கம்
+    display_options:
+      fields:
+        media_bulk_form:
+          action_title: செயல்
+        name:
+          separator: ', '
+        edit_media:
+          text: மாற்று
+        delete_media:
+          text: அழி
+  widget:
+    display_title: விட்ஜெட்
+    display_options:
+      filters:
+        name:
+          expose:
+            label: பெயர்
+      arguments:
+        bundle:
+          exception:
+            title: எல்லா
+      header:
+        display_link_grid:
+          label: கட்டம்
+        display_link_table:
+          label: அட்டவணை
+  widget_table:
+    display_options:
+      fields:
+        name:
+          label: பெயர்
+        uid:
+          label: எழுத்தாளர்
+        changed:
+          label: மாற்றப்பட்டது
+      filters:
+        name:
+          expose:
+            label: பெயர்
+      arguments:
+        bundle:
+          exception:
+            title: எல்லா
+      header:
+        display_link_grid:
+          label: கட்டம்
+        display_link_table:
+          label: அட்டவணை

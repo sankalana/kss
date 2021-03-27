@@ -1,0 +1,66 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        media_bulk_form:
+          action_title: చర్య
+      filters:
+        status:
+          group_info:
+            group_items:
+              2:
+                title: ప్రచురింపబడనివి
+        name:
+          expose:
+            label: పేరు
+        langcode:
+          expose:
+            label: భాష
+  page:
+    display_title: పేజీ
+    display_options:
+      fields:
+        media_bulk_form:
+          action_title: చర్య
+        edit_media:
+          text: మార్చు
+        delete_media:
+          text: తొలగించు
+  widget:
+    display_options:
+      filters:
+        name:
+          expose:
+            label: పేరు
+      arguments:
+        bundle:
+          exception:
+            title: అన్నీ
+      header:
+        display_link_table:
+          label: పట్టిక
+  widget_table:
+    display_options:
+      fields:
+        name:
+          label: పేరు
+        uid:
+          label: రచయిత
+      filters:
+        name:
+          expose:
+            label: పేరు
+      arguments:
+        bundle:
+          exception:
+            title: అన్నీ
+      header:
+        display_link_table:
+          label: పట్టిక

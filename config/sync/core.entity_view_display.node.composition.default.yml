@@ -1,0 +1,196 @@
+uuid: cd72925a-cecf-4144-bd87-6335299ea6b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.composition.body
+    - field.field.node.composition.composer
+    - field.field.node.composition.composition_language
+    - field.field.node.composition.composition_type
+    - field.field.node.composition.raga
+    - field.field.node.composition.tala
+    - node.type.composition
+  module:
+    - field_layout
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          2c3a3a2d-5e80-4f79-8b78-9bbfeaf94a31:
+            uuid: 2c3a3a2d-5e80-4f79-8b78-9bbfeaf94a31
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:composition:links'
+            additional: {  }
+            weight: 0
+          c75fe886-8b96-4879-856e-64bf5d28d5d6:
+            uuid: c75fe886-8b96-4879-856e-64bf5d28d5d6
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:composition:body'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+            additional: {  }
+            weight: 1
+          c8be3692-7650-4f93-a4ad-22469d5622f0:
+            uuid: c8be3692-7650-4f93-a4ad-22469d5622f0
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:composition:raga'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 2
+          85d70bfa-5719-4c00-bf74-5052f3a509a9:
+            uuid: 85d70bfa-5719-4c00-bf74-5052f3a509a9
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:composition:tala'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 3
+          fdc875a4-8c38-4f1b-bed1-f54afb1405ea:
+            uuid: fdc875a4-8c38-4f1b-bed1-f54afb1405ea
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:composition:composer'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 4
+          74d7d6e7-9cc4-48a0-9bd4-24580a44609e:
+            uuid: 74d7d6e7-9cc4-48a0-9bd4-24580a44609e
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:composition:composition_type'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 5
+          aef0c173-a275-4df0-9040-919498c8610b:
+            uuid: aef0c173-a275-4df0-9040-919498c8610b
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:composition:composition_language'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 6
+        third_party_settings: {  }
+id: node.composition.default
+targetEntityType: node
+bundle: composition
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  composer:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  composition_language:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  composition_type:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  raga:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  tala:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,9 @@
+uuid: 5b2a687a-0125-47e8-91c1-82fb9b28b7ed
+langcode: en
+status: true
+dependencies: {  }
+id: kn
+label: Kannada
+direction: ltr
+weight: 1
+locked: false

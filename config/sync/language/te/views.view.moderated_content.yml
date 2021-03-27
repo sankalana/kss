@@ -1,0 +1,29 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: వడపోయి
+      pager:
+        options:
+          tags:
+            previous: '‹ మునుపటి'
+            next: 'తదుపరి ›'
+            first: '« మొదటి'
+            last: 'చివర »'
+          expose:
+            items_per_page_options_all_label: '- అన్ని -'
+      fields:
+        title:
+          label: శీర్షిక
+        name:
+          label: రచయిత
+        operations:
+          label: కార్యాలు
+      filters:
+        title:
+          expose:
+            label: శీర్షిక
+        langcode:
+          expose:
+            label: భాష

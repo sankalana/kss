@@ -1,0 +1,9 @@
+uuid: 965e4161-703a-40ac-8c74-6fd0673cd3f9
+langcode: en
+status: true
+dependencies: {  }
+id: sa-IN
+label: Sanskrit
+direction: ltr
+weight: 5
+locked: false

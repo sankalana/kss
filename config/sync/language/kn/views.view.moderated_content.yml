@@ -1,0 +1,38 @@
+label: 'ಸೌಮ್ಯಗೊಳಿಸಿದ ವಿಷಯ'
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ಶೋಧಕ(Filter)
+          reset_button_label: 'ಪುನಃ ಹೊಂದಿಸು'
+      fields:
+        title:
+          label: ಶೀರ್ಷಿಕೆ
+          separator: ', '
+        type:
+          label: 'ವಿಷಯದ ಬಗೆ'
+          separator: ', '
+        name:
+          label: ಲೇಖಕ
+          separator: ', '
+        moderation_state:
+          separator: ', '
+        changed:
+          label: 'ಅಪ್‌ಡೇಟ್‌ ಮಾಡಲಾಗಿದ್ದು'
+          separator: ', '
+        operations:
+          label: ಕ್ರಿಯೆ
+      filters:
+        title:
+          expose:
+            label: ಶೀರ್ಷಿಕೆ
+        type:
+          expose:
+            label: 'ವಿಷಯದ ಬಗೆ'
+        langcode:
+          expose:
+            label: ಭಾಷೆ
+      title: 'ಸೌಮ್ಯಗೊಳಿಸಿದ ವಿಷಯ'
+  moderated_content:
+    display_title: 'ಸೌಮ್ಯಗೊಳಿಸಿದ ವಿಷಯ'
