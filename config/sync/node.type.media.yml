@@ -1,0 +1,18 @@
+uuid: 4bf31781-3a37-49ac-b2b1-33c592b7e65a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Media
+type: media
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

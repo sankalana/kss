@@ -1,0 +1,57 @@
+uuid: ac6c6a59-dc39-4206-be6a-029ef12516ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.media.body
+    - field.field.node.media.main_artiste
+    - field.field.node.media.media
+    - field.field.node.media.sub_artistes
+    - node.type.media
+  module:
+    - text
+    - user
+id: node.media.default
+targetEntityType: node
+bundle: media
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  main_artiste:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  media:
+    type: entity_reference_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  sub_artistes:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  langcode: true

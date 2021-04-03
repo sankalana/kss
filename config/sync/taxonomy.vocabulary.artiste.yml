@@ -1,0 +1,8 @@
+uuid: 788589e1-e7e2-4157-96f0-1537f6273bba
+langcode: en
+status: true
+dependencies: {  }
+name: Artiste
+vid: artiste
+description: ''
+weight: 0

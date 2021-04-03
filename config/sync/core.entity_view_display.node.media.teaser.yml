@@ -1,0 +1,37 @@
+uuid: b1b77238-752d-4bcc-a3c9-39b9a0c124ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.media.body
+    - field.field.node.media.main_artiste
+    - field.field.node.media.media
+    - field.field.node.media.sub_artistes
+    - node.type.media
+  module:
+    - text
+    - user
+id: node.media.teaser
+targetEntityType: node
+bundle: media
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  main_artiste: true
+  media: true
+  sub_artistes: true

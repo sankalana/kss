@@ -1,0 +1,29 @@
+uuid: 282af725-ed0a-44fe-bf64-dcac142f2ed6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.main_artiste
+    - node.type.media
+    - taxonomy.vocabulary.artiste
+id: node.media.main_artiste
+field_name: main_artiste
+entity_type: node
+bundle: media
+label: 'Main Artiste'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      artiste: artiste
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

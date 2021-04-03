@@ -1,0 +1,29 @@
+uuid: 4adf811f-d25e-4d04-a55f-e130998574cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.sub_artistes
+    - node.type.media
+    - taxonomy.vocabulary.artiste
+id: node.media.sub_artistes
+field_name: sub_artistes
+entity_type: node
+bundle: media
+label: Accompaniment
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      artiste: artiste
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
